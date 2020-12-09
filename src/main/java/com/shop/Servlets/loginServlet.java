@@ -21,7 +21,6 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author aoife
  */
-@WebServlet(name = "loginServlet", urlPatterns = {"/loginServlet"})
 public class loginServlet extends HttpServlet implements IConstants {
 
     /**
@@ -49,18 +48,19 @@ public class loginServlet extends HttpServlet implements IConstants {
             UserManager uMgr = new UserManager();
             User user = uMgr.loginUser(email, password);
             if (user == null) {
-                RequestDispatcher rd = request.getRequestDispatcher("/login.jsp");
+                RequestDispatcher rd = request.getRequestDispatcher("login.jsp");
                 rd.forward(request, response);
+                System.out.println(user);
             } else {
                 request.getSession(true).setAttribute(IConstants.SESSION_KEY_USER, user);
                 if (user.getUserType().equals(IConstants.USER_TYPE_ADMIN)) {
                     RequestDispatcher rd = request.getRequestDispatcher("/adminHome.jsp");
                     rd.forward(request, response);
                 } else if (user.getUserType().equals(IConstants.USER_TYPE_GENERAL_USER)) {
-                    RequestDispatcher rd = request.getRequestDispatcher("/index.html");
+                    RequestDispatcher rd = request.getRequestDispatcher("/shop.jsp");
                     rd.forward(request, response);
                 } else {
-                    RequestDispatcher rd = request.getRequestDispatcher("/index.html");
+                    RequestDispatcher rd = request.getRequestDispatcher("/shop.jsp");
                     rd.forward(request, response);
                 }
             }

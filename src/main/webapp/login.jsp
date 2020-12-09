@@ -94,7 +94,7 @@
                         <br>
                         <a class="forgot-password" href="#">Forgot Password?</a>
                         <br/>
-                        <input type="submit" id="SignIn "value="Login">
+                        <input type="submit" id="SignIn" value="Login">
                     </form>
                  </div>
             </div>

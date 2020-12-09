@@ -6,6 +6,7 @@
 package com.shop.manager;
 import com.shop.DAO.UserDAO;
 import com.shop.model.User;
+import com.shop.Servlets.loginServlet;
 
 /**
  *
