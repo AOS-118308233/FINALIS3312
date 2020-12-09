@@ -12,7 +12,6 @@ import com.shop.utils.StringUtils;
 import java.io.IOException;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -40,7 +39,7 @@ public class loginServlet extends HttpServlet implements IConstants {
 
         if (StringUtils.isStringEmpty(email) || StringUtils.isStringEmpty(password)) {
 
-            RequestDispatcher rd = request.getRequestDispatcher("/index.html");
+            RequestDispatcher rd = request.getRequestDispatcher("/shop.jsp");
             rd.forward(request, response);
 
         } else {

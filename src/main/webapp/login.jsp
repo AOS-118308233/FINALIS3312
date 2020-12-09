@@ -80,13 +80,14 @@
             <div class="container" id="login">
                 <div class="login" style="width: 500px; float:left; height:500px; background:#8AA994; margin:20px">
                     <form class="form-signin" action="loginServlet" method="POST">
+                        <input type="hidden" name="action" value="add">
                         <br/>
                         <h3 class="form-signin-heading">You need to be logged in to complete your purchase</h3>
                         <br/>
                         <h3 class="form-signin-heading"> Please Log In </h3>
-                        <input type="text" class="input-block-level" id="email" placeholder="Email Address">
+                        <input type="text" class="input-block-level" id="email" value="${User.email}" placeholder="Email Address">
                         <br/>
-                        <input type="password" class="input-block-level" id="password" placeholder="Password">
+                        <input type="password" class="input-block-level" id="password" value="${User.password}" placeholder="Password">
                         <br/>
                         <label class="checkbox">
                         <input type="checkbox" value="remember-me"> Remember me
