@@ -62,13 +62,10 @@
               <a class="nav-link" href="contact.jsp">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="login.jsp">Log In</a>
+              <a class="nav-link" href="login.jsp">Log In  <i class="fas fa-user-plus"></i></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="login.jsp"><i class="fas fa-user-plus"></i></a>
-            </li>
-             <li class="nav-item">
-                 <a class="nav-link" href="cart.jsp"><i class="fas fa-shopping-basket"></i></a>
+              <a class="nav-link" href="cart.jsp">View Basket  <i class="fas fa-shopping-basket"></i></a>
             </li>
           </ul>
         </div>
@@ -80,23 +77,25 @@
     <br/>
     
     <div class="aboutUs">
-    <h2> About Toys4Us</h2>
-        <img src="resources/images/newLogo.png" alt="logo" height="200" width="200">
-        <p class="aboutUs"> Toys4Us was the brain child of Aoife, a Third Year Business Information Student, who set up Toys4Us as a spoof of ToysRUs
+        
+        <h2> About Toys4Us</h2>
+            <img src="resources/images/newLogo.png" alt="logo" height="200" width="200">
+            <p class="aboutUs" style="text-align: center"> Toys4Us was the brain child of Aoife, a Third Year Business Information Student, who set up Toys4Us as a spoof of ToysRUs
                 because she simply wasn't bothered to come up with some smart name because it wasn't part of the brief. Some of the products featured
                 are owned by Aoife herself (the Williams F1 bear affectionately known as George) or people she knows (her sister owns Baby Yoda) 
                 or else they are similar to ones she currently owns (The green dinosaur and Sid the sloth). Aoife is not affiliated with ToysRUs in any
                 way and all pictures were found through Google Images. If you have any issues with the websites then don't bother contacting Aoife, 
                 she has way too many assignments and projects to be doing, you the "customer" are not her priority. </p>
-        <p class="aboutUs"> Thank you for your co-operation, we appreciate it. (Probably? Maybe? Who knows?) </p>
+            <p class="aboutUs" style="text-align: center"> Thank you for your co-operation, we appreciate it. (Probably? Maybe? Who knows?) </p>
+          
     </div>
-    <!-- Footer -->
+    
     <!-- Footer -->
     <footer class="py-5 bg-dark" id="footer">
       <div class="container">
           <!-- First Line -->
         <a class="privacy" style="float:left" href="links.html">Privacy Policy</a>
-        <a class="languag" style="float:right" href="links.html">Language | English | French | German |</a>
+        <a class="language" style="float:right" href="links.html">Language | English | French | German |</a>
         <br/>
         <!-- Second Line -->
         <a class="Cookies" style="float:left" href="links.html">Cookies</a>
@@ -105,9 +104,11 @@
         <!-- Third Line --> 
         <a class="delivery" style="float:left" href="links.html">Delivery and Returns</a>
         <br/>
-        <a class="fab fa-facebook-square fa-2x" style="float:right" href='links.html'></a>
-        <a class="fab fa-instagram-square fa-2x" style="float:right" href='links.html'></a>
-        <a class="fab fa-twitter-square fa-2x" style="float:right" href='links.html'></a>
+        <center>
+        <a class="fab fa-facebook-square fa-2x" href='links.html'></a>
+        <a class="fab fa-instagram-square fa-2x" href='links.html'></a>
+        <a class="fab fa-twitter-square fa-2x" href='links.html'></a>
+        <p class="m-0 text-center text-white">Copyright &copy; Toys4Us</p></center>
       </div>
       <!-- /.container -->
     </footer>

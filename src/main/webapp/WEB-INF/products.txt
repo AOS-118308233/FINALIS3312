@@ -1,0 +1,15 @@
+Wil123|Williams F1 Bear|€24.95
+
+Yod456|Baby Yoda|€39.95
+
+Din098|Green Dinosaur|€12.95
+
+Moo678|Highland Cow|€17.95
+
+Sco833|Scooby-Doo|€19.95
+
+Pen654|Penguin|€10.95
+
+Lob321|Lobster|€8.95
+
+CaB345|Care Bear|€22.95

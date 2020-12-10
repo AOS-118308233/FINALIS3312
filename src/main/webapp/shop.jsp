@@ -56,13 +56,10 @@
               <a class="nav-link" href="contact.jsp">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="login.jsp">Log In</a>
+              <a class="nav-link" href="login.jsp">Log In  <i class="fas fa-user-plus"></i></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="login.jsp"><i class="fas fa-user-plus"></i></a>
-            </li>
-             <li class="nav-item">
-                 <a class="nav-link" href="cart.jsp"><i class="fas fa-shopping-basket"></i></a>
+              <a class="nav-link" href="cart.jsp">View Basket  <i class="fas fa-shopping-basket"></i></a>
             </li>
           </ul>
         </div>
@@ -96,8 +93,8 @@
         <!-- Williams 
       <div class ="row">
         <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="resources/images/williams.jpg" alt="Williams" height="200" width="180"></a>
+          <div class="card>
+            <img class="card-img-top" src="resources/images/williams.jpg" alt="Williams" height="200" width="180"></a>
             <div class="card-body">
               <h5 class="card-title">
                 <p>Williams F1 Bear</>
@@ -251,7 +248,7 @@
     <br>
     
 
-          <c:forEach items="${Product}" var="topProduct">
+        <c:forEach items="${Product}" var="topProduct">
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
               <a href="#"><img class="card-img-top" src="images/${topProduct.productImage}" alt=""></a>
@@ -267,7 +264,7 @@
               </div>
             </div>
           </div>
-          </c:forEach>      
+        </c:forEach>      
               
       </div>
     
@@ -287,12 +284,12 @@
 
     <!-- /.container -->
 
-    <!-- Footer -->
+ <!-- Footer -->
     <footer class="py-5 bg-dark" id="footer">
       <div class="container">
           <!-- First Line -->
         <a class="privacy" style="float:left" href="links.html">Privacy Policy</a>
-        <a class="languag" style="float:right" href="links.html">Language | English | French | German |</a>
+        <a class="language" style="float:right" href="links.html">Language | English | French | German |</a>
         <br/>
         <!-- Second Line -->
         <a class="Cookies" style="float:left" href="links.html">Cookies</a>
@@ -301,9 +298,11 @@
         <!-- Third Line --> 
         <a class="delivery" style="float:left" href="links.html">Delivery and Returns</a>
         <br/>
-        <a class="fab fa-facebook-square fa-2x" style="float:right" href='links.html'></a>
-        <a class="fab fa-instagram-square fa-2x" style="float:right" href='links.html'></a>
-        <a class="fab fa-twitter-square fa-2x" style="float:right" href='links.html'></a>
+        <center>
+        <a class="fab fa-facebook-square fa-2x" href='links.html'></a>
+        <a class="fab fa-instagram-square fa-2x" href='links.html'></a>
+        <a class="fab fa-twitter-square fa-2x" href='links.html'></a>
+        <p class="m-0 text-center text-white">Copyright &copy; Toys4Us</p></center>
       </div>
       <!-- /.container -->
     </footer>

@@ -54,15 +54,10 @@
               <a class="nav-link" href="contact.jsp">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="login.jsp">Log In</a>
-              <span class="sr-only">(current)</span>
-            </li>
+              <a class="nav-link" href="login.jsp">Log In  <i class="fas fa-user-plus"></i></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="login.jsp"><i class="fas fa-user-plus"></i></a>
-            </li>
-             <li class="nav-item">
-                 <a class="nav-link" href="cart.jsp"><i class="fas fa-shopping-basket"></i></a>
+              <a class="nav-link" href="cart.jsp">View Basket  <i class="fas fa-shopping-basket"></i></a>
             </li>
           </ul>
         </div>

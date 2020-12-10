@@ -57,13 +57,10 @@
               <a class="nav-link" href="contact.jsp">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="login.jsp">Log In</a>
+              <a class="nav-link" href="login.jsp">Log In  <i class="fas fa-user-plus"></i></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="login.jsp"><i class="fas fa-user-plus"></i></a>
-            </li>
-             <li class="nav-item">
-                 <a class="nav-link" href="cart.jsp"><i class="fas fa-shopping-basket"></i></a>
+              <a class="nav-link" href="cart.jsp">View Basket  <i class="fas fa-shopping-basket"></i></a>
             </li>
           </ul>
         </div>
@@ -98,8 +95,8 @@
       <!-- Bernese -->
       <div class ="row">
         <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="resources/images/bernese.jpeg" alt="Bernese" height="200" width="180"></a>
+          <div class="card">
+            <img class="card-img-top" src="resources/images/bernese.jpeg" alt="Bernese" height="200" width="180"></a>
             <div class="card-body">
               <h5 class="card-title">
                 <p>Bernese Mountain Dog </p>
@@ -282,9 +279,11 @@
         <!-- Third Line --> 
         <a class="delivery" style="float:left" href="links.html">Delivery and Returns</a>
         <br/>
-        <a class="fab fa-facebook-square fa-2x" style="float:right" href='links.html'></a>
-        <a class="fab fa-instagram-square fa-2x" style="float:right" href='links.html'></a>
-        <a class="fab fa-twitter-square fa-2x" style="float:right" href='links.html'></a>
+        <center>
+        <a class="fab fa-facebook-square fa-2x" href='links.html'></a>
+        <a class="fab fa-instagram-square fa-2x" href='links.html'></a>
+        <a class="fab fa-twitter-square fa-2x" href='links.html'></a>
+        <p class="m-0 text-center text-white">Copyright &copy; Toys4Us</p></center>
       </div>
       <!-- /.container -->
     </footer>

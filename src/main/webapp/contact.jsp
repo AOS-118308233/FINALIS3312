@@ -56,13 +56,10 @@
             </li>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="login.jsp">Log In</a>
+              <a class="nav-link" href="login.jsp">Log In  <i class="fas fa-user-plus"></i></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="login.jsp"><i class="fas fa-user-plus"></i></a>
-            </li>
-             <li class="nav-item">
-                 <a class="nav-link" href="cart.jsp"><i class="fas fa-shopping-basket"></i></a>
+              <a class="nav-link" href="cart.jsp">View Basket  <i class="fas fa-shopping-basket"></i></a>
             </li>
           </ul>
         </div>
@@ -77,8 +74,8 @@
         <br/>
         <br/>
         <br/>
-        <br/>
-        <br/>
+               
+        <h2> CONTACT US! </h2>
         
         <h3> For General Queries: info@Toys4Us.ie</h3>
         <br/>
@@ -104,7 +101,7 @@
     
     
     
-     <!-- Footer -->
+    <!-- Footer -->
     <footer class="py-5 bg-dark" id="footer">
       <div class="container">
           <!-- First Line -->
@@ -118,13 +115,14 @@
         <!-- Third Line --> 
         <a class="delivery" style="float:left" href="links.html">Delivery and Returns</a>
         <br/>
-        <a class="fab fa-facebook-square fa-2x" style="float:right" href='links.html'></a>
-        <a class="fab fa-instagram-square fa-2x" style="float:right" href='links.html'></a>
-        <a class="fab fa-twitter-square fa-2x" style="float:right" href='links.html'></a>
+        <center>
+        <a class="fab fa-facebook-square fa-2x" href='links.html'></a>
+        <a class="fab fa-instagram-square fa-2x" href='links.html'></a>
+        <a class="fab fa-twitter-square fa-2x" href='links.html'></a>
+        <p class="m-0 text-center text-white">Copyright &copy; Toys4Us</p></center>
       </div>
       <!-- /.container -->
     </footer>
-
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
