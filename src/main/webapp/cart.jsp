@@ -90,17 +90,16 @@
     <tr>
         <td>
             <form action="" method="post">
-                <input type="hidden" name="productCode" value="${item.productCode}">
-                <input type=text name="quantity" value="${item.quantity}" id="quantity">
+                <input type="hidden" name="productCode" value="${item.Cart.productCode}">
+                <input type=text name="quantity" value="${item.Cart.quantity}" id="quantity">
                 <input type="submit" value="Update">
             </form>
         </td>
-        <td>${item.productDescription}</td>
-        <td>${item.product.priceCurrencyFormat}</td>
-        <td>${item.totalCurrencyFormat}</td>
+        <td>${item.Cart.productName}</td>
+        
         <td>
             <form action="" method="post">
-                <input type="hidden" name="productCode" value="${item.productCode}">
+                <input type="hidden" name="productCode" value="${item.Cart.productCode}">
                 <input type="hidden" name="quantity" value="0">
                 <input type="submit" value="Remove Item">
             </form>

@@ -5,11 +5,13 @@
  */
 package com.shop.model;
 
+import java.io.Serializable;
+
 /**
  *
  * @author aoife
  */
-public class Product {
+public class Product implements Serializable{
 
     public static void add(Product p5) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.

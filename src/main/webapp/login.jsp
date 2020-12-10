@@ -80,18 +80,22 @@
                     <form class="form-signin" action="loginServlet" method="POST">
                         <input type="hidden" name="action" value="add">
                         <br/>
+                        <br/>
+                        <br/>
                         <h3 class="form-signin-heading">You need to be logged in to complete your purchase</h3>
                         <br/>
                         <h3 class="form-signin-heading"> Please Log In </h3>
-                        <input type="text" class="input-block-level" id="email" value="${User.email}" placeholder="Email Address">
+                        <input type="text" class="input-block-level" id="email" value="${user.email}" placeholder="Email Address">
                         <br/>
-                        <input type="password" class="input-block-level" id="password" value="${User.password}" placeholder="Password">
+                        <br/>
+                        <input type="password" class="input-block-level" id="password" value="${user.password}" placeholder="Password">
                         <br/>
                         <label class="checkbox">
-                        <input type="checkbox" value="remember-me"> Remember me
+                            <input type="checkbox" value="remember-me"> Remember me
                         </label>
                         <br>
                         <a class="forgot-password" href="#">Forgot Password?</a>
+                        <br/>
                         <br/>
                         <input type="submit" id="SignIn" value="Login">
                     </form>
@@ -113,7 +117,7 @@
                         <br/>
                         <br/>
                         <!-- Sign uP Button won't do anything a while, just a dummy link -->
-                        <a class="btn btn-large btn-primary" id="SignIn" type="submit" href="#"> Sign Up </a>
+                        <input type="submit" id="SignIn" value="Sign Up">
                     </form>
                 </div> 
             </div> <!-- end of sign in container -->

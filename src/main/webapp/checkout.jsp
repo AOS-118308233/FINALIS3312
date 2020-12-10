@@ -70,3 +70,27 @@
         </div>
       </div>
     </nav>
+       
+    <!-- Footer -->
+    <footer class="py-5 bg-dark" id="footer">
+      <div class="container">
+          <!-- First Line -->
+        <a class="privacy" style="float:left" href="links.html">Privacy Policy</a>
+        <a class="language" style="float:right" href="links.html">Language | English | French | German |</a>
+        <br/>
+        <!-- Second Line -->
+        <a class="Cookies" style="float:left" href="links.html">Cookies</a>
+        <a class="currency" style="float:right" href="links.html">Currency| € | £ | $ |</a>
+        <br>
+        <!-- Third Line --> 
+        <a class="delivery" style="float:left" href="links.html">Delivery and Returns</a>
+        <br/>
+        <center>
+        <a class="fab fa-facebook-square fa-2x" href='links.html'></a>
+        <a class="fab fa-instagram-square fa-2x" href='links.html'></a>
+        <a class="fab fa-twitter-square fa-2x" href='links.html'></a>
+        <br/>
+        <p class="m-0 text-center text-white">Copyright &copy; Toys4Us</p></center>
+      </div>
+      <!-- /.container -->
+    </footer>

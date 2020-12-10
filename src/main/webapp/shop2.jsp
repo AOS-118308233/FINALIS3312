@@ -283,6 +283,7 @@
         <a class="fab fa-facebook-square fa-2x" href='links.html'></a>
         <a class="fab fa-instagram-square fa-2x" href='links.html'></a>
         <a class="fab fa-twitter-square fa-2x" href='links.html'></a>
+        <br/>
         <p class="m-0 text-center text-white">Copyright &copy; Toys4Us</p></center>
       </div>
       <!-- /.container -->

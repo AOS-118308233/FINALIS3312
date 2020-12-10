@@ -38,7 +38,7 @@ public class CartServlet extends HttpServlet {
         ArrayList<Product> topProducts = pServ.getHomePageProducts();
         
         request.setAttribute("products", topProducts);
-        request.getRequestDispatcher("/shop.jsp").forward(request, response);
+        request.getRequestDispatcher("/cart.jsp").forward(request, response);
         
         
     }
