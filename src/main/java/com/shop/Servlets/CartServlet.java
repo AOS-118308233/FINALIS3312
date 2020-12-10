@@ -5,7 +5,7 @@
  */
 package com.shop.Servlets;
 
-import com.shop.manager.ProductService;
+import com.shop.manager.ProductManager;
 import com.shop.model.Product;
 
 import java.io.IOException;
@@ -34,11 +34,11 @@ public class CartServlet extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         
-        ProductService pServ = new ProductService();
+        ProductManager pServ = new ProductManager();
         ArrayList<Product> topProducts = pServ.getHomePageProducts();
         
         request.setAttribute("products", topProducts);
-        request.getRequestDispatcher("/homepage.jsp").forward(request, response);
+        request.getRequestDispatcher("/shop.jsp").forward(request, response);
         
         
     }

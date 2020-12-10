@@ -7,13 +7,14 @@ package com.shop.manager;
 
 import java.util.ArrayList;
 import com.shop.DAO.ProductDAO;
+import com.shop.model.Product;
 
 /**
  *
  * @author aoife
  */
-import com.shop.model.Product;
-public class ProductService {
+
+public class ProductManager {
     
      public ArrayList<Product> getHomePageProducts(){
         

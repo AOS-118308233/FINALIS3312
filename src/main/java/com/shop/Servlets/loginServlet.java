@@ -39,7 +39,7 @@ public class loginServlet extends HttpServlet implements IConstants {
 
         if (StringUtils.isStringEmpty(email) || StringUtils.isStringEmpty(password)) {
 
-            RequestDispatcher rd = request.getRequestDispatcher("/shop.jsp");
+            RequestDispatcher rd = request.getRequestDispatcher("/login.jsp");
             rd.forward(request, response);
 
         } else {
@@ -47,9 +47,9 @@ public class loginServlet extends HttpServlet implements IConstants {
             UserManager uMgr = new UserManager();
             User user = uMgr.loginUser(email, password);
             if (user == null) {
-                RequestDispatcher rd = request.getRequestDispatcher("login.jsp");
+                RequestDispatcher rd = request.getRequestDispatcher("/login.jsp");
                 rd.forward(request, response);
-                System.out.println(user);
+                
             } else {
                 request.getSession(true).setAttribute(IConstants.SESSION_KEY_USER, user);
                 if (user.getUserType().equals(IConstants.USER_TYPE_ADMIN)) {

@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <html lang="en">
     
     <head>
@@ -94,9 +96,9 @@
 	</div> 
     
             
-   
-        <!-- Admin Activities div -->
-        <div class="container" style="float:left; width:800px; height:600px;">
+    <div class="container">
+        <!-- Admin Activities div 
+        <div class="container" style="float:left; width:900px; height:600px;">
             <div class="adminAct">
                 <div class="col-lg-3">
                     <h3 class="my-4">Administrator Activities</h3>
@@ -109,8 +111,20 @@
                         </div>       
                 </div>
             </div>
+        </div> -->
+        <div class="row">
+            <div class="column">
+                <img src="resources/images/revenue.png" alt="Forest" style="width:50%">
+            </div>
+            <div class="column">
+                <img src="resources/images/sales.png" alt="Mountains" style="width:50%">
+            </div>
         </div>
         
+        </div>
+    </div>
+        
+       
         <br/>
         <br/>
     

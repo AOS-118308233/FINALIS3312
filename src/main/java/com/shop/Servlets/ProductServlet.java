@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package com.shop.Servlets;
-import com.shop.manager.ProductService;
+import com.shop.manager.ProductManager;
 import com.shop.model.Product;
 import com.shop.utils.IConstants;
 
@@ -35,7 +35,7 @@ public class ProductServlet extends HttpServlet implements IConstants{
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         
-        ProductService pServ = new ProductService();
+        ProductManager pServ = new ProductManager();
         ArrayList<Product> topProducts = pServ.getHomePageProducts();
         
         request.setAttribute("products", topProducts);

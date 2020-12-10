@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -77,7 +78,7 @@
     <br/>
     
     <div class="aboutUs">
-    <h3> About Toys4Us</h3>
+    <h2> About Toys4Us</h2>
         <img src="resources/images/newLogo.png" alt="logo" height="200" width="200">
         <p class="aboutUs"> Toys4Us was the brain child of Aoife, a Third Year Business Information Student, who set up Toys4Us as a spoof of ToysRUs
                 because she simply wasn't bothered to come up with some smart name because it wasn't part of the brief. Some of the products featured
