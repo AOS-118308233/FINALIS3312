@@ -47,6 +47,8 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="shop.jsp">Shop</a>
+              <span class="sr-only">(current)</span>
+            </li>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="aboutUs.jsp">About Us</a>
@@ -78,6 +80,21 @@
       <br>   
       
       <h2> Some more products </h2>
+      <br/>
+      
+      <!-- Combo Box for Filtering - Doesn't function --> 
+     
+        <select name="filters" id="filters">
+            <option value="newest"> Sort By: Newest to Oldest</option>
+            <option value="oldest"> Sort By: Oldest to Newest</option>
+            <option value="AtoZ">Sort Alphabetically: A To Z</option>
+            <option value="ZtoA">Sort Alphabetically: Z To A</option>
+            <option value="LowToHigh">Sort By Price: Lowest to Highest</option>
+            <option value="HighToLow">Sort By Price: Highest to Lowest</option>
+        </select>
+      
+      <br/>
+      <br/>
       <!-- Bernese -->
       <div class ="row">
         <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">

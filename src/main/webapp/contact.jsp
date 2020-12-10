@@ -52,6 +52,8 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.jsp">Contact</a>
+              <span class="sr-only">(current)</span>
+            </li>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="login.jsp">Log In</a>

@@ -55,6 +55,8 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="aboutUs.jsp">About Us</a>
+              <span class="sr-only">(current)</span>
+            </li>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.jsp">Contact</a>

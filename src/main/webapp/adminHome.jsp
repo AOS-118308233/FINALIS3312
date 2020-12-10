@@ -82,8 +82,9 @@
         has been taken from my work on that course and adjusted for this project 
             You can add a new task, delete a task using the trash icon and mark a task as done if you click on the item -->
     
-    
-        <div id="container" class="adminList" style="width:500px; height:300px">
+    <center>
+        <h2>Admin To-Do list : Add, Delete and mark jobs Done</h2>
+        <div id="container" class="adminList" style="width:400px; height:300px">
             <div class="toDo">
                 <h1 class="list">Admin To Do</h1>
                     <input type="text" placeholder="Add New To Do">
@@ -95,41 +96,35 @@
             </div>
 	</div> 
     
-            
-    <div class="container">
-        <!-- Admin Activities div 
-        <div class="container" style="float:left; width:900px; height:600px;">
-            <div class="adminAct">
-                <div class="col-lg-3">
-                    <h3 class="my-4">Administrator Activities</h3>
-                        <div class="list-group"> 
-                        <a href="#" class="list-group-item">Update User Details</a>
-                        <a href="#" class="list-group-item">Add New User</a>
-                        <a href="#" class="list-group-item">Delete Current User</a>
-                        <a href="#" class="list-group-item">Sales Revenue</a>
-                        <a href="#" class="list-group-item">Stock Levels</a>
-                        </div>       
-                </div>
-            </div>
-        </div> -->
-        <div class="row">
-            <div class="column">
-                <img src="resources/images/revenue.png" alt="Forest" style="width:50%">
-            </div>
-            <div class="column">
-                <img src="resources/images/sales.png" alt="Mountains" style="width:50%">
-            </div>
-        </div>
-        
-        </div>
-    </div>
-        
-       
-        <br/>
-        <br/>
     
             
-        
+    <div class="container">
+        <h2>Revenue and Sales Reports</h2>
+            <div class="row">
+                <div class="column">
+                    <img src="resources/images/revenue.png" alt="Forest" style="width:100%">
+                </div>
+            <div class="column">
+                <img src="resources/images/sales.png" alt="Mountains" style="width:100%">
+            </div>
+        </div>
+    </div>
+  
+    <div class="col-lg-3">
+
+        <h1 class="my-4">Administrator Activities</h1>
+        <!-- This will be more useful in Part 2 where the admin can edit users, products etc, for now it's all dummy link -->
+            <div class="list-group">
+                <a href="#" class="list-group-item">Create New User</a>
+                <a href="#" class="list-group-item">Update and Edit Current User Details</a>
+                <a href="#" class="list-group-item">View Products</a>
+                <a href="#" class="list-group-item">Update Product Details</a>
+                <a href="#" class="list-group-item">Generate Product Reports</a>
+                <a href="#" class="list-group-item">Generate Sales Reports</a>
+            </div>
+    </div>
+    </center>
+    
     </div> <!-- END OF MAIN DIV -->
   
 
